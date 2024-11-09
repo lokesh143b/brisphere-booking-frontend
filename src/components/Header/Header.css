@@ -1,0 +1,157 @@
+.header-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+}
+.header-container {
+  background-color: rgb(252, 247, 247);
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+  gap: 20px;
+}
+.header-left-container h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.header-container img {
+  width: 50%;
+}
+@media (max-width:568px) {
+    .header-container img{
+        width: 100%;
+    }
+}
+
+.header-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icon-1 {
+  font-size: 30px;
+}
+.icon-2 {
+  font-size: 35px;
+}
+
+.check-in-out-card {
+  width: 80vw;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 0px rgb(221, 220, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+@media (max-width: 762px) {
+  .header-main-container {
+    height: 100vh;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .header-left-container h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .header-left-container p {
+    font-size: 12px;
+  }
+  .icon-1 {
+    font-size: 20px;
+  }
+  .icon-2 {
+    font-size: 25px;
+  }
+  .check-in-out-card {
+    position: absolute;
+    top: 80%;
+    gap: 15px;
+    
+  }
+}
+.check-in-out-card hr {
+  height: 70%;
+  width: 1px;
+  background-color: rgb(221, 220, 220);
+  border: none;
+}
+
+.check-in-out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.check-in-out input {
+  display: none;
+}
+.check-in-out p {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.rooms-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.rooms-btn-container button {
+  background-color: transparent;
+  border: none;
+}
+.rooms-btn-container p {
+  font-weight: 500;
+}
+.book-btn {
+  padding: 18px 35px;
+  color: #ffffff;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width:568px) {
+    .check-in-out-card{
+        margin-top: 10px;
+        height: auto;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80%;
+    }
+    .check-in-out label{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .check-in-out p{
+        font-size: 10px;
+    }
+    .book-btn{
+        padding: 9px 19px;
+        font-size: 12px;
+    }
+}

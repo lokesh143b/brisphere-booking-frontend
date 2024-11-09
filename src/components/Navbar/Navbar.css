@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: auto;
+  height: auto;
+}
+.navbar-container h1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar-links-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.navbar-links-container a{
+    text-decoration: none;
+}
+@media (max-width:762px) {
+  .navbar-container h1 {
+    font-size: 13px;
+   
+  }
+  .navbar-links-container{
+    display: none;
+  }
+}
+.active{
+    color: red;
+    font-weight: 500;
+    border-bottom: 1px solid red;
+}
