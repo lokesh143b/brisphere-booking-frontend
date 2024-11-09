@@ -1,6 +1,6 @@
 import React from "react";
 import "./OrderComplete.css"; 
-import { useFormContext } from "../../context/formContext";
+import { useFormContext } from "../../context/FormContext";
 import okImage from "../../assets/ok.png";
  
 const OrderComplete = () => {
