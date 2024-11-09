@@ -2,7 +2,7 @@ import React from "react";
 import "./OrderComplete.css"; 
 import { useFormContext } from "../../context/formContext";
 import okImage from "../../assets/ok.png";
-
+ 
 const OrderComplete = () => {
   const { formData } = useFormContext();
 
